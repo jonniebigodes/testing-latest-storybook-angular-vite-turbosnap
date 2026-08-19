@@ -9,7 +9,9 @@
     "test": "ng test",
     "storybook": "ng run testing_chromatic_vitest_angular_no_ssr:storybook",
     "build-storybook": "ng run testing_chromatic_vitest_angular_no_ssr:build-storybook",
-    "chromatic:cli": "chromatic --vitest"
+    "chromatic:cli": "chromatic --vitest",
+    "chromatic": "chromatic --project-token=chpt_a1665176cf4daaa --exit-zero-on-changes",
+    "chromatic:turbosnap": "chromatic --project-token=chpt_a1665176cf4daaa --only-changed --exit-zero-on-changes"
   },
   "private": true,
   "packageManager": "npm@11.6.2",
