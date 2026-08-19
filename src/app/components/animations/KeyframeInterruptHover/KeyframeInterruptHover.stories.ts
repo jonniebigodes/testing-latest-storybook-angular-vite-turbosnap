@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { KeyframeInterruptHover } from './ui-keyframe-interrupt-hover';
 
 const meta: Meta<KeyframeInterruptHover> = {

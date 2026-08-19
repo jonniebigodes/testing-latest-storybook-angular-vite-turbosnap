@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { LoginForm } from './ui-login-form';
 
 const meta: Meta<LoginForm> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { FillTextLoading } from './ui-fill-text-loading';
 
 const meta: Meta<FillTextLoading> = {

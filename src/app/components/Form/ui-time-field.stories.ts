@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { TimeField } from './ui-time-field';
 
 const meta: Meta<TimeField> = {

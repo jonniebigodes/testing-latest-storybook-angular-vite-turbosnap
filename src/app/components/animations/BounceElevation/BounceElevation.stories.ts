@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { BounceElevation } from './ui-bounce-elevation';
 
 const meta: Meta<BounceElevation> = {

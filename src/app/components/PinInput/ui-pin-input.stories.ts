@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { PinInput } from './ui-pin-input';
 
 const meta: Meta<PinInput> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { RotationLoop } from './ui-rotation-loop';
 
 const meta: Meta<RotationLoop> = {

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { RatingGroup } from './ui-rating-group';
 
 const meta: Meta<RatingGroup> = {

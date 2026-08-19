@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { Toolbar } from './ui-toolbar';
 import { Button } from '../Button/ui-button';
 

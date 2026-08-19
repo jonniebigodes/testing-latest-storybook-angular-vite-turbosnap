@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { ScrambleTextReveal } from './ui-scramble-text-reveal';
 
 const meta: Meta<ScrambleTextReveal> = {

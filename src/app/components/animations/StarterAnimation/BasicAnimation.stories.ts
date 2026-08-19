@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { BasicAnimation } from './ui-basic-animation';
 
 const meta: Meta<BasicAnimation> = {

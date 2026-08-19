@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { SpringOscillator } from './ui-spring-oscillator';
 
 const meta: Meta<SpringOscillator> = {

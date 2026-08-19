@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { Collapsible } from './ui-collapsible';
 
 const meta: Meta<Collapsible> = {

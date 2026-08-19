@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { LoadingPulseDots } from './ui-loading-pulse-dots';
 
 const meta: Meta<LoadingPulseDots> = {

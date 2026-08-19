@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/angular';
+import type { Meta, StoryObj } from '@storybook/angular-vite';
 import { DropDownMenu } from './ui-dropdown-menu';
 
 const meta: Meta<DropDownMenu> = {
