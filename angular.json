@@ -89,7 +89,8 @@
             "browserTarget": "testing_chromatic_vitest_angular_no_ssr:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
-            "outputDir": "storybook-static"
+            "outputDir": "storybook-static",
+            "statsJson": true
           }
         }
       }
