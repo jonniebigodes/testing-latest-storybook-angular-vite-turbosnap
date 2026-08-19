@@ -18,13 +18,14 @@ jobs:
         # ⚠️ See your package manager's documentation for the correct command to install dependencies in a CI environment.
         run: npm ci
       - name: Run Chromatic
-        uses: chromaui/action@latest
-        with:
-          # Check for the Need for sass related externals in the Chromatic action
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          onlyChanged: true
-          exitZeroOnChanges: true
-          externals: |
-            *.sass
-            *.css
-            public/**
+        run: npm run chromatic:turbosnap_implicit_dir
+        # uses: chromaui/action@latest
+        # with:
+        #   # Check for the Need for sass related externals in the Chromatic action
+        #   projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+        #   onlyChanged: true
+        #   exitZeroOnChanges: true
+        #   externals: |
+        #     *.sass
+        #     *.css
+        #     public/**
