@@ -7,7 +7,13 @@ const config: StorybookConfig = {
     '@storybook/addon-docs',
     '@storybook/addon-vitest'
   ],
-  framework: '@storybook/angular-vite',
+  framework: {
+    name: '@storybook/angular-vite',
+    options: {
+      compodoc: true,
+      compodocArgs: ['-e', 'json', '-d', '.'],
+    },
+  },
    features: {
     sidebarOnboardingChecklist: false,
     menuOnboardingChecklist: false,
